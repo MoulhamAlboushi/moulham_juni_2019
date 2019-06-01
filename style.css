@@ -16,6 +16,8 @@ header div h1 {
   font-style: italic;
 }
 .about {
+  width: 45%;
+  font-style: ranga;
   color: antiquewhite;
   background: yellowgreen;
   font-size: 30;

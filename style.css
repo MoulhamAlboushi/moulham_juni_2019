@@ -8,24 +8,29 @@ header {
   width: 190px;
   height: 280px;
   border-block: 2px;
+  margin: 0px 1000px;
 }
-.empty{
-   background: yellow;
+.video {
+  -moz-background-clip: border-box;
+}
+.empty {
+  background: yellow;
 }
 header div h1 {
-  color: azure; italic;
+  color: azure italic;
   padding: 0px;
   margin: 0px;
   font-style: italic;
 }
 .about {
-
+  margin: 0px 0px 0px 0px;
   width: 45%;
   font-style: Ranga;
   color: antiquewhite;
   background-color: green;
-  background-image: url(img/frame-2482970_960_720.png) rond: 90 ;
-  background-size: 75% ;
+  background-image: url(img/frame-2482970_960_720.png);
+  background-position: center center;
+  background-size: 75%;
   background-position-x: 60px;
   background-repeat: no-repeat;
   font-size: 40;

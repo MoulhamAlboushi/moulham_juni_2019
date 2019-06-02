@@ -10,6 +10,7 @@ header{
    height: 40%;
    padding:20px;
    background-color:cyan;
+   background-image: image(amsterdam)
 
 
 }
@@ -18,12 +19,14 @@ section{
    color: coral;
    padding: 20px;
    display: flex;
-   flex-direction: row-reverse;
+   flex-direction: row;
 
 
 }
 div{
    background: red;
+   margin: auto;
+   width: 100px;
 }
 footer{
    background: rgb(70, 30, 50);

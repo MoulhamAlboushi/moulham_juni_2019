@@ -1,109 +1,22 @@
-body{
-   background-color: rgb(58, 58, 58);
-   color: white;
-   font-family: Arial, Helvetica, sans-serif;
-   margin: 0px;
-   padding: 0px;
+* h2 {
+  color: chocolate;
+  padding: 0px;
+  margin: 0px;
 }
-
-header{
-   height: 40%;
-   padding:20px;
-   background-color:cyan;
-   background-image: image(amsterdam)
-
-
+#welcome,
+#about {
+  border: 2px;
+  border-style: solid;
+  border-block-color: black;
 }
-section{
-   background-color: white;
-   color: coral;
-   padding: 20px;
-   display: flex;
-   flex-direction: row;
-
-
+#welcome {
+  color: white;
+  background-color: blueviolet;
 }
-div{
-   background: red;
-   margin: auto;
-   width: 100px;
-}
-footer{
-   background: rgb(70, 30, 50);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-*{
-   margin: 0px;
-   padding: 0px;
-}
-
-header {
-  background-color: burlywood;
-  font-family: Roboto;
-  font-size: 20;
+#about {
   color: blueviolet;
-  padding: 10px 10px 10px 10px;
-  margin: 0px;
-  width: 190px;
-  height: 280px;
-  border-block: 2px; 
-  border:   margin: 0px 2000px;
-  
+  background-color: aqua;
 }
-
-.right{
-   width: 190px;
-   height: 150px;
+div {
+  padding: 15px;
 }
-.empty {
-  background: yellow;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
-header div h1 {
-  color: azure italic;
-  padding: 0px;
-  margin: 0px;
-  font-style: italic;
-}
-.about {
-  margin: 0px 0px 0px 0px;
-  width: 45%;
-  font-style: Ranga;
-  color: antiquewhite;
-  background-color: green;
-  background-image: url(img/frame-2482970_960_720.png);
-  background-position: center center;
-  background-size: 75%;
-  background-position-x: 60px;
-  background-repeat: no-repeat;
-  font-size: 40;
-  padding: 60px 50px 60px 50px;
-}
-.about h2 {
-  padding: 10px 0px 0px 20px;
-  margin-top: 0px;
-  color: black;
-}
-.about p {
-  margin: 0px;
-  padding: 0px;
-}
-/*

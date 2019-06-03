@@ -1,21 +1,45 @@
-* h2 {
-  color: chocolate;
+body {
+  /*background-color: aqua;*/
+  max-width: 960px
   padding: 0px;
   margin: 0px;
+  font-family: merienda, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  *{
+     box-sizing: border-box;
+  }
 }
-#welcome #about {
-  border: 2px;
-  border-style: solid;
-  border-block-color: black;
+#welcome,
+#about,
+#contact,
+#box-1 {
+  border: 1px solid black;
+  margin: 3px;
+}
+#welcome p span {
+  color: brown;
+}
+#about p span {
+  background-color: chocolate;
+}
+#about{
+   width: 30%;
+   float: right;
+}
+
+#box-1 {
+  width: 45%;
+  border-radius: 50%;
+  float: left;
 }
 #welcome {
-  color: white;
-  background-color: blueviolet;
-}
-#about {
-  color: blueviolet;
-  background-color: aqua;
-}
-div {
-  padding: 15px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("/img/amsterdam.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 400px;
+  height: 200x;
+  margin-top: 10px;
 }
